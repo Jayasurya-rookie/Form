@@ -1,0 +1,74 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* width: 100%; */
+    height: 100vh; 
+    color: white !important;
+    font-size: 20px;
+    background-image: url(/anime.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+form{
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0,0.5);
+    width: 300px;
+    height: auto;
+    margin:auto;
+    /* margin-top: 50%; */
+    padding: 10px;
+    border: 2px solid navy;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    top: 100px;
+}
+button{
+    margin: auto;
+    border: 2px solid;
+    background-color: rgb(17, 34, 28);
+    color: aliceblue;
+    font-size: 1.1em;
+    border-radius: 20px;
+    margin-top: 20px;
+  
+
+
+}
+label{
+    display: block;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.box input{
+    width: 80%;
+    margin: 10px;
+    padding: 9px;
+    font-size: 1.1em;
+    border-radius: 10px;
+}
+.radio{
+    accent-color:rgb(1, 1, 1);
+    transform: scale(1.5);
+    /* text-align: left !important; */
+}
+
+button:hover{
+    background: transparent;
+    
+}
+input:hover{
+    background: transparent;
+    color: black;
+    box-shadow: 10px 10px 10px black;
+}
+form:hover{
+    background: transparent;
+    color: black;
+    box-shadow: 10px 10px 10px black;
+
+}
